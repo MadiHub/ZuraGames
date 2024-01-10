@@ -138,6 +138,16 @@
   </div>
 </div>
 
+<div class="hero h-96 bg-base-200">
+  <div class="hero-content text-center">
+    <div class="max-w-md">
+      <h1 class="text-5xl font-bold text-cyan-600	">ZuraGames</h1>
+      <p class="py-6 text-xl text-slate-600">ZuraGames merupakan web jual beli akun tercepat, 100% pembelian melalui web</p>
+      <button class="btn btn-primary"><p class="text-lg">Semua Produk</p></button>
+    </div>
+  </div>
+</div>
+
 <div class="container mx-auto grid grid-cols-2  md:grid-cols-2 lg:grid-cols-4 gap-4 mt-20">
     <!-- Product Card -->
     <div class="product-card rounded-lg">
