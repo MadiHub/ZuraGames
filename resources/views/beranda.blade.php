@@ -148,154 +148,60 @@
   </div>
 </div>
 
-<div class="container mx-auto grid grid-cols-2  md:grid-cols-2 lg:grid-cols-4 gap-4 mt-20">
-    <!-- Product Card -->
-    <div class="product-card rounded-lg">
-		<div class="product-tumb rounded-lg">
-            <a href="">
-            <img src="https://crm.vcgamers.com/uploads/product/20220110094546produk00.jpg" width="200" height="300"alt="" class="rounded ">
-            </a>
-            </div>
-            <div class="product-details">
-                <span class="product-catagory text-neutral-600">Mobile Legends</span>
-                <h4><a href="">x300 stars, skins 200</a></h4>
-                <div class="product-price">
-                    <p >Rp 200.000</p>
-                </div>
-                <div class="grid grid-cols-2 mt-5">
-                <p class="text-primary">Stok :</p>
-                <p class="text-primary">Baru</p>
-            </div>			
-		</div>
-	</div>
-	
-    <!-- Product Card -->
-    <div class="product-card rounded-lg">
-		<div class="product-tumb rounded-lg">
-            <a href="">
-            <img src="https://crm.vcgamers.com/uploads/product/20220110094546produk00.jpg" width="200" height="300"alt="" class="rounded ">
-            </a>
-            </div>
-            <div class="product-details">
-                <span class="product-catagory text-neutral-600">Mobile Legends</span>
-                <h4><a href="">x300 stars, skins 200</a></h4>
-                <div class="product-price">
-                    <p >Rp 200.000</p>
-                </div>
-                <div class="grid grid-cols-2 mt-5">
-                <p class="text-primary">Stok :</p>
-                <p class="text-primary">Baru</p>
-            </div>			
-		</div>
-	</div>
-	
-    <!-- Product Card -->
-    <div class="product-card rounded-lg">
-		<div class="product-tumb rounded-lg">
-            <a href="">
-            <img src="https://crm.vcgamers.com/uploads/product/20220110094546produk00.jpg" width="200" height="300"alt="" class="rounded ">
-            </a>
-            </div>
-            <div class="product-details">
-                <span class="product-catagory text-neutral-600">Mobile Legends</span>
-                <h4><a href="">x300 stars, skins 200</a></h4>
-                <div class="product-price">
-                    <p >Rp 200.000</p>
-                </div>
-                <div class="grid grid-cols-2 mt-5">
-                <p class="text-primary">Stok :</p>
-                <p class="text-primary">Baru</p>
-            </div>			
-		</div>
-	</div>
-	
-    <!-- Product Card -->
-    <div class="product-card rounded-lg">
-		<div class="product-tumb rounded-lg">
-            <a href="">
-            <img src="https://crm.vcgamers.com/uploads/product/20220110094546produk00.jpg" width="200" height="300"alt="" class="rounded ">
-            </a>
-            </div>
-            <div class="product-details">
-                <span class="product-catagory text-neutral-600">Mobile Legends</span>
-                <h4><a href="">x300 stars, skins 200</a></h4>
-                <div class="product-price">
-                    <p >Rp 200.000</p>
-                </div>
-                <div class="grid grid-cols-2 mt-5">
-                <p class="text-primary">Stok :</p>
-                <p class="text-primary">Baru</p>
-            </div>			
-		</div>
-	</div>
-	
-    <!-- Product Card -->
-    <div class="product-card rounded-lg">
-		<div class="product-tumb rounded-lg">
-            <a href="">
-            <img src="https://crm.vcgamers.com/uploads/product/20220110094546produk00.jpg" width="200" height="300"alt="" class="rounded ">
-            </a>
-            </div>
-            <div class="product-details">
-                <span class="product-catagory text-neutral-600">Mobile Legends</span>
-                <h4><a href="">x300 stars, skins 200</a></h4>
-                <div class="product-price">
-                    <p >Rp 200.000</p>
-                </div>
-                <div class="grid grid-cols-2 mt-5">
-                <p class="text-primary">Stok :</p>
-                <p class="text-primary">Baru</p>
-            </div>			
-		</div>
-	</div>
-	
-    <!-- Product Card -->
-    <div class="product-card rounded-lg">
-		<div class="product-tumb rounded-lg">
-            <a href="">
-            <img src="https://crm.vcgamers.com/uploads/product/20220110094546produk00.jpg" width="200" height="300"alt="" class="rounded ">
-            </a>
-            </div>
-            <div class="product-details">
-                <span class="product-catagory text-neutral-600">Mobile Legends</span>
-                <h4><a href="">x300 stars, skins 200</a></h4>
-                <div class="product-price">
-                    <p >Rp 200.000</p>
-                </div>
-                <div class="grid grid-cols-2 mt-5">
-                <p class="text-primary">Stok :</p>
-                <p class="text-primary">Baru</p>
-            </div>			
-		</div>
-	</div>
-	
-    <!-- Product Card -->
-    <div class="product-card rounded-lg">
-		<div class="product-tumb rounded-lg">
-            <a href="">
-            <img src="https://crm.vcgamers.com/uploads/product/20220110094546produk00.jpg" width="200" height="300"alt="" class="rounded ">
-            </a>
-            </div>
-            <div class="product-details">
-                <span class="product-catagory text-neutral-600">Mobile Legends</span>
-                <h4><a href="">x300 stars, skins 200</a></h4>
-                <div class="product-price">
-                    <p >Rp 200.000</p>
-                </div>
-                <div class="grid grid-cols-2 mt-5">
-                <p class="text-primary">Stok :</p>
-                <p class="text-primary">Baru</p>
-            </div>			
-		</div>
-	</div>
-	
     
-	
-
-
-    <!-- Tambahkan kartu produk lainnya di sini -->
-
+<!-- Skeleton Loader -->
+<div id="skeletonLoader" class="container mx-auto grid grid-cols-2  md:grid-cols-3 lg:grid-cols-4 gap-4 mt-20">
+  @foreach ($allProduk as $p) 
+  <div class="flex flex-col gap-4 w-52 ">
+    <div class="skeleton h-32 w-40 lg:w-64 md:w-48"></div>
+    <div class="skeleton h-4 w-28 lg:w-32 md:w-32"></div>
+    <div class="skeleton h-4 w-40 lg:w-48 md:w-34"></div>
+    <div class="skeleton h-4 w-28 lg:w-40 md:w-28"></div>
+      </div>
+  @endforeach
+  </div>
 </div>
+
+<div class="container mx-auto grid grid-cols-2  md:grid-cols-3 lg:grid-cols-4 gap-4 mt-20">
+@foreach ($allProduk as $p) 
+<!-- Product Card -->
+    <div class="product-card rounded-lg hidden">
+		<div class="product-tumb rounded-lg">
+            <a href="">
+            <img src="https://crm.vcgamers.com/uploads/product/20220110094546produk00.jpg" width="200" height="300"alt="" class="rounded ">
+            </a>
+            </div>
+            <div class="product-details">
+                <span class="product-catagory text-neutral-600">{{$p->nama_produk}}</span>
+                <h4><a href="">skins 500+</a></h4>
+                <div class="product-price">
+                    <p >Rp 200.000</p>
+                </div>
+                <div class="grid grid-cols-2 mt-5">
+                <p class="text-primary">Stok :</p>
+                <p class="text-primary">Baru</p>
+            </div>			
+		</div>
+	</div>
+  @endforeach
+</div>
+
+<script>
+  // JavaScript to toggle visibility of skeleton loader and actual product cards
+  document.addEventListener('DOMContentLoaded', function () {
+    // Simulate data loading delay (replace this with your actual data fetching logic)
+    setTimeout(function () {
+      // Hide skeleton loader
+      document.getElementById('skeletonLoader').style.display = 'none';
+
+      // Show actual product cards
+      var productCards = document.querySelectorAll('.product-card');
+      productCards.forEach(function (card) {
+        card.style.display = 'block';
+      });
+    }, 2000); // Adjust the delay as needed
+  });
+</script>
 
 </body>
 </html>
