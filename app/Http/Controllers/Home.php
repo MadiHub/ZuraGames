@@ -24,4 +24,13 @@ class Home extends Controller
         ];
         return view('beranda', $data);
     }
+
+    public function detail_product() {
+        $allProduk = $this->ModelProduk->getAllProduk();
+        
+        $data = [
+            'allProduk' => $allProduk
+        ];
+        return view('detail-product', $data);
+    }
 }

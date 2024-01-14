@@ -14,3 +14,4 @@ use App\Http\Controllers\Home;
 |
 */
 Route::get('/', [Home::class, 'beranda']);
+Route::get('detail-product', [Home::class, 'detail_product']);

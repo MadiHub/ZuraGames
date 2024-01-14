@@ -109,6 +109,7 @@
         </div>
       </div>
       <div tabindex="0" class="mt-3 z-[1] card card-compact dropdown-content w-52 bg-base-100 shadow">
+        
         <div class="card-body">
           <span class="font-bold text-lg">8 Items</span>
           <span class="text-info">Subtotal: $999</span>
@@ -133,6 +134,18 @@
         </li>
         <li><a>Settings</a></li>
         <li><a>Logout</a></li>
+      </ul>
+    </div>
+    <div class="dropdown">
+      <div tabindex="0" role="button" class="btn m-1">
+        Theme
+        <svg width="12px" height="12px" class="h-2 w-2 fill-current opacity-60 inline-block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048"><path d="M1799 349l242 241-1017 1017L7 590l242-241 775 775 775-775z"></path></svg>
+      </div>
+      <ul tabindex="0" class="dropdown-content z-[1] p-2 shadow-2xl bg-base-300 rounded-box w-52">
+        <li><input type="radio" name="theme-dropdown" class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="Default" value="default"/></li>
+        <li><input type="radio" name="theme-dropdown" class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="Retro" value="retro"/></li>
+        <li><input type="radio" name="theme-dropdown" class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="Cyberpunk" value="cyberpunk"/></li>
+        <li><input type="radio" name="theme-dropdown" class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="Valentine" value="valentine"/></li>
       </ul>
     </div>
   </div>
@@ -167,13 +180,13 @@
 <!-- Product Card -->
     <div class="product-card rounded-lg hidden">
 		<div class="product-tumb rounded-lg">
-            <a href="">
+            <a href="{{ url('detail-product/'.$p->kd_produk) }}">
             <img src="https://crm.vcgamers.com/uploads/product/20220110094546produk00.jpg" width="200" height="300"alt="" class="rounded ">
             </a>
             </div>
             <div class="product-details">
                 <span class="product-catagory text-neutral-600">{{$p->nama_produk}}</span>
-                <h4><a href="">skins 500+</a></h4>
+                <h4><a href="{{ url('detail-product/'.$p->kd_produk) }}">skins 500+</a></h4>
                 <div class="product-price">
                     <p >Rp 200.000</p>
                 </div>
